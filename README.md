@@ -1,6 +1,8 @@
-# dev-made-it-homepage
+# DEV Made IT
 
-This template should help get you started developing with Vue 3 in Vite.
+Our home page.
+
+![obraz](https://github.com/user-attachments/assets/1bd198cb-2263-4ae2-ad45-546ae5b05dec)
 
 ## Recommended IDE Setup
 
