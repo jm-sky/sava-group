@@ -5,6 +5,8 @@
         DEV
       </span> Made IT
     </div>
-    <div class="text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-gray-200 opacity-80">Madeyski Jan</div>
+    <div class="text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-gray-200 opacity-80">
+      Madeyski Jan
+    </div>
   </div>
 </template>
