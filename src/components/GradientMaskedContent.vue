@@ -24,7 +24,7 @@ const maskImageGradient = computed(() => {
   const xPos = x.value - (rect?.left ?? 0)
   const yPos = y.value - (rect?.top ?? 0)
 
-  return `radial-gradient(circle at ${xPos}px ${yPos}px, black 30%, transparent 100%)`
+  return `radial-gradient(circle at ${xPos}px ${yPos}px, black 40%, transparent 90%)`
 })
 </script>
 

@@ -26,7 +26,8 @@ onUnmounted(() => {
 <template>
   <button
     v-show="isVisible"
-    class="fixed bottom-8 right-8 p-3 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition-colors duration-300"
+    type="button"
+    class="fixed bottom-8 cursor-pointer right-8 p-3 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition-colors duration-300"
     aria-label="Scroll to top"
     @click="scrollToTop"
   >
