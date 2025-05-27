@@ -1,7 +1,7 @@
 <template>
   <div class="logo flex flex-col justify-center gap-3 text-center">
-    <div class="text-5xl font-bold">
-      <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-900">
+    <div class="text-5xl font-bold drop-shadow-sm">
+      <span class="font-extrabold text-transparent bg-clip-text bg-radial-[circle_at_center] bg-[length:200%] from-primary-400 to-primary-900 animate-text-gradient">
         DEV
       </span> Made IT
     </div>

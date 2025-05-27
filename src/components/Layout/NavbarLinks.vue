@@ -7,13 +7,28 @@ const { t } = useI18n()
 
 <template>
   <div class="ml-10 flex items-baseline space-x-4">
-    <Button as="a" href="#" variant="ghost">
+    <Button
+      as="a"
+      href="#"
+      variant="ghost"
+      vibe="underline"
+    >
       {{ t('nav.home') }}
     </Button>
-    <Button as="a" href="#about" variant="ghost">
+    <Button
+      as="a"
+      href="#about"
+      variant="ghost"
+      vibe="underline"
+    >
       {{ t('nav.about') }}
     </Button>
-    <Button as="a" href="#contact" variant="ghost">
+    <Button
+      as="a"
+      href="#contact"
+      variant="ghost"
+      vibe="underline"
+    >
       {{ t('nav.contact') }}
     </Button>
   </div>
