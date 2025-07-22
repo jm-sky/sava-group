@@ -1,10 +1,10 @@
 <script setup>
-import Navbar from '@/components/Navbar.vue'
-import Hero from '@/components/Hero.vue'
-import About from '@/components/About.vue'
-import Contact from '@/components/Contact.vue'
-import Footer from '@/components/Footer.vue'
-import ScrollToTop from '@/components/ScrollToTop.vue'
+import Navbar from '@/components/Layout/Navbar.vue'
+import Hero from '@/components/Page/Hero.vue'
+import About from '@/components/Page/About.vue'
+import Contact from '@/components/Page/Contact.vue'
+import Footer from '@/components/Page/Footer.vue'
+import ScrollToTop from '@/components/Page/ScrollToTop.vue'
 </script>
 
 <template>
