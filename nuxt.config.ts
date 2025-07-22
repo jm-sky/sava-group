@@ -20,20 +20,18 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        name: 'English',
-        file: 'en/index.ts'
+        name: 'English'
       },
       {
         code: 'pl',
-        name: 'Polski',
-        file: 'pl/index.ts'
+        name: 'Polski'
       }
     ],
-    langDir: '',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
       redirectOn: 'root'
-    }
+    },
+    vueI18n: './i18n/index.ts'
   }
 })
