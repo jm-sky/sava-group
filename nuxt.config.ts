@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         file: 'pl/index.ts'
       }
     ],
-    langDir: 'i18n',
+    langDir: '',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
