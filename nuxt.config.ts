@@ -20,11 +20,13 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        name: 'English'
+        name: 'English',
+        file: 'en.ts',
       },
       {
         code: 'pl',
-        name: 'Polski'
+        name: 'Polski',
+        file: 'pl.ts',
       }
     ],
     detectBrowserLanguage: {

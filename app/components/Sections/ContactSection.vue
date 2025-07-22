@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import { Briefcase, Building, Github, Linkedin, Mail, MapPin, Phone, ShieldCheck } from 'lucide-vue-next'
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '#imports'
 import { config } from '@/config'
-import CardComponent from '../ContactCard.vue'
-import Section from '../Section.vue'
+import CardComponent from '../Cards/ContactCard.vue'
+import BaseSection from './BaseSection.vue'
 
 const { t } = useI18n()
 </script>
 
 <template>
-  <Section id="contact" :title="t('contact.title')">
+  <BaseSection id="contact" :title="t('contact.title')">
     <CardComponent>
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Briefcase class="size-6" />
@@ -84,5 +84,5 @@ const { t } = useI18n()
         <span>dev-made-it</span>
       </a>
     </CardComponent>
-  </Section>
+  </BaseSection>
 </template>

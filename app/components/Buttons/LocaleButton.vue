@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '#imports'
 import { Button } from '@/components/ui/button'
 
-const { locale } = useI18n()
+const { locale, setLocale } = useI18n()
 
 const toggleLocale = () => {
   const nextLocale = locale.value === 'pl' ? 'en' : 'pl'
-  locale.value = nextLocale
+  setLocale(nextLocale)
 }
 </script>
 

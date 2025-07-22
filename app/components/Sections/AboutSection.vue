@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-import AboutCard from '../AboutCard.vue'
+import { useI18n } from '#imports'
+import AboutCard from '../Cards/AboutCard.vue'
 import List from '../List/List.vue'
 import ListItem from '../List/ListItem.vue'
-import Section from '../Section.vue'
+import BaseSection from './BaseSection.vue'
 
 const { t } = useI18n()
 </script>
 
 <template>
-  <Section id="about" :title="t('about.title')">
+  <BaseSection id="about" :title="t('about.title')">
     <AboutCard :title="t('about.whatWeDo.title')" class="leading-relaxed">
       <p class="text-gray-600 dark:text-gray-300">
         {{ t('about.whatWeDo.description') }}
@@ -55,5 +55,5 @@ const { t } = useI18n()
         </ListItem>
       </List>
     </AboutCard>
-  </Section>
+  </BaseSection>
 </template>

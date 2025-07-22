@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
+import { useI18n } from '#imports'
 import { Button } from '@/components/ui/button'
 import GradientMaskedContent from '../GradientMaskedContent.vue'
 import DevMadeItLogo from '../Logo/DevMadeItLogo.vue'
