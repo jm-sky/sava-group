@@ -15,4 +15,25 @@ export default defineNuxtConfig({
     prefix: '',
     componentDir: './components/ui',
   },
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en/index.ts'
+      },
+      {
+        code: 'pl',
+        name: 'Polski',
+        file: 'pl/index.ts'
+      }
+    ],
+    langDir: 'i18n',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    }
+  }
 })
