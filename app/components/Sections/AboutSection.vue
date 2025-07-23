@@ -39,11 +39,11 @@ const { t } = useI18n()
       <List>
         <ListItem>
           <span class="font-semibold mr-1">{{ t('about.technologies.list.backend') }}:</span>
-          <span>PHP, Laravel, Python (Flask, Django), Node.js</span>
+          <span>PHP (Laravel), Python (Flask, FastAPI, Django), Node.js (Express)</span>
         </ListItem>
         <ListItem>
           <span class="font-semibold mr-1">{{ t('about.technologies.list.frontend') }}:</span>
-          <span>Vue.js 3, JavaScript, TailwindCSS</span>
+          <span>Vue.js 3, React, JavaScript, TailwindCSS, Bootstrap</span>
         </ListItem>
         <ListItem>
           <span class="font-semibold mr-1">{{ t('about.technologies.list.databases') }}:</span>
