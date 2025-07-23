@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   shadcn: {
     prefix: '',
-    componentDir: './components/ui',
+    componentDir: './app/components/ui',
   },
   i18n: {
     defaultLocale: 'en',
