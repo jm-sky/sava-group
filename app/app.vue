@@ -12,6 +12,12 @@ useHead({
     { name: 'description', content: 'Full-stack web development focused on practical solutions and business process optimization.' },
   ],
 })
+
+useSeoMeta({
+  ogImage: '/logo.png',
+  twitterCard: 'summary_large_image',
+  robots: 'index,follow',
+})
 </script>
 
 <template>
