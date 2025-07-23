@@ -13,6 +13,7 @@ const toggleDark = useToggle(isDark)
       variant="ghost"
       size="sm"
       class="relative size-8"
+      aria-label="Toggle dark mode"
       @click="toggleDark()"
     >
       <Transition

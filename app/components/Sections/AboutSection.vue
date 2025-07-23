@@ -11,7 +11,7 @@ const { t } = useI18n()
 <template>
   <BaseSection id="about" :title="t('about.title')">
     <AboutCard :title="t('about.whatWeDo.title')" class="leading-relaxed">
-      <p class="text-gray-600 dark:text-gray-300">
+      <p class="text-muted-foreground">
         {{ t('about.whatWeDo.description') }}
       </p>
       <List>
@@ -22,7 +22,7 @@ const { t } = useI18n()
       </List>
     </AboutCard>
     <AboutCard :title="t('about.values.title')" class="leading-relaxed">
-      <p class="text-gray-600 dark:text-gray-300">
+      <p class="text-muted-foreground">
         {{ t('about.values.description') }}
       </p>
       <List>
@@ -33,7 +33,7 @@ const { t } = useI18n()
       </List>
     </AboutCard>
     <AboutCard :title="t('about.technologies.title')" class="leading-relaxed">
-      <p class="text-gray-600 dark:text-gray-300">
+      <p class="text-muted-foreground">
         {{ t('about.technologies.description') }}
       </p>
       <List>
