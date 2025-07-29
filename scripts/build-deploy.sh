@@ -12,6 +12,6 @@ echo "2. Generating static site with pnpm..."
 pnpm generate
 
 echo "3. Running finalization script..."
-sudo finalize-dev-made-it-web.sh
+sudo finalize-wiarbud.sh
 
 echo "Build and deploy completed successfully!"
