@@ -4,38 +4,45 @@ export default {
     about: 'O nas',
     contact: 'Kontakt'
   },
-  // Component-specific translations
   about: {
     title: 'O firmie WIARBUD',
     whatWeDo: {
       title: 'Nasze usługi',
       description: 'Świadczymy kompleksowe usługi budowlane i remontowe:',
-      customWebApplications: 'Malowanie i szpachlowanie mieszkań, domów, biur',
-      documentManagement: 'Konstrukcje kartonowo-gipsowe i układanie płytek',
-      integrations: 'Układanie paneli winylowych i remonty balkonów',
-      processOptimization: 'Prace elektryczne, hydrauliczne i montaż mebli'
+      painting: 'Malowanie i szpachlowanie mieszkań, domów, biur',
+      drywall: 'Konstrukcje kartonowo-gipsowe i sufity podwieszane',
+      tiling: 'Układanie płytek i remonty łazienek',
+      flooring: 'Układanie paneli winylowych i podłóg',
+      electrical: 'Prace elektryczne i montaż oświetlenia',
+      plumbing: 'Usługi hydrauliczne i montaż armatury',
+      furniture: 'Składanie mebli i usługi montażowe',
+      renovation: 'Remonty balkonów i tarasów'
     },
     values: {
       title: 'Dlaczego my',
-      description: 'Gwarantujemy:',
-      cleanCode: 'Wysoką jakość wykonania i materiałów',
-      architecture: 'Profesjonalne podejście do każdego projektu',
-      userExperience: 'Terminową realizację w ramach budżetu',
-      processUnderstanding: 'Pełną obsługę od projektu do realizacji'
+      description: 'Co nas wyróżnia:',
+      quality: 'Wysoka jakość wykonania i dbałość o szczegóły',
+      experience: 'Wieloletnie doświadczenie w budownictwie i remontach',
+      reliability: 'Rzetelność i terminowość realizacji projektów',
+      pricing: 'Konkurencyjne ceny i przejrzyste wyceny',
+      warranty: 'Gwarancja na wszystkie wykonane prace',
+      materials: 'Stosowanie wysokiej jakości materiałów i nowoczesnych technik'
     },
-    technologies: {
-      title: 'Nasze specjalizacje',
-      description: 'Specjalizujemy się w nowoczesnych technikach budowlanych i materiałach.',
-      list: {
-        backend: 'Prace konstrukcyjne',
-        frontend: 'Wykończenia',
-        databases: 'Instalacje',
-        ops: 'Zarządzanie projektami'
-      }
+    company: {
+      title: 'Informacje o firmie',
+      description: 'Profesjonalne usługi budowlane w Polsce:',
+      owner: 'Właściciel',
+      nip: 'NIP',
+      regon: 'REGON',
+      phone: 'Telefon',
+      email: 'Email',
+      coverage: 'Obszar działania: Warszawa i okolice'
     }
   },
   contact: {
     title: 'Kontakt',
+    services: 'Usługi budowlane',
+    construction: 'Remonty i budownictwo'
   },
   hero: {
     description: 'Profesjonalne usługi budowlane i remontowe z wieloletnim doświadczeniem i gwarancją jakości.',

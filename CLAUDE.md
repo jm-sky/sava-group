@@ -63,6 +63,4 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 
 # Company Information
 - **Company**: WIARBUD Pavlo Baida
-- **Services**: Construction and renovation services including painting, spackling, drywall constructions, tile installation, vinyl panel installation, electrical work, plumbing, furniture assembly
-- **Contact**: contact@wiarbud.dev-made.it, +48 668 292 049
-- **Languages**: Polish (primary), English
+ 

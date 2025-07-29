@@ -4,38 +4,45 @@ export default {
     about: 'About',
     contact: 'Contact'
   },
-  // Component-specific translations
   about: {
     title: 'About WIARBUD',
     whatWeDo: {
       title: 'Our Services',
       description: 'We provide comprehensive construction and renovation services:',
-      customWebApplications: 'Painting and spackling of apartments, houses, offices',
-      documentManagement: 'Drywall constructions and tile installation',
-      integrations: 'Vinyl panel installation and balcony renovations',
-      processOptimization: 'Electrical work, plumbing, and furniture assembly'
+      painting: 'Painting and spackling of apartments, houses, offices',
+      drywall: 'Drywall constructions and suspended ceilings',
+      tiling: 'Tile installation and bathroom renovations',
+      flooring: 'Vinyl panel installation and flooring',
+      electrical: 'Electrical work and lighting installation',
+      plumbing: 'Plumbing services and fixture installation',
+      furniture: 'Furniture assembly and mounting services',
+      renovation: 'Balcony and terrace renovations'
     },
     values: {
       title: 'Why Choose Us',
-      description: 'We guarantee:',
-      cleanCode: 'High-quality workmanship and materials',
-      architecture: 'Professional approach to every project',
-      userExperience: 'Timely completion within budget',
-      processUnderstanding: 'Full service from design to completion'
+      description: 'What sets us apart:',
+      quality: 'High-quality workmanship and attention to detail',
+      experience: 'Years of experience in construction and renovation',
+      reliability: 'Reliable and timely project completion',
+      pricing: 'Competitive pricing and transparent quotes',
+      warranty: 'Warranty on all completed work',
+      materials: 'Use of premium materials and modern techniques'
     },
-    technologies: {
-      title: 'Our Specializations',
-      description: 'We specialize in modern construction techniques and materials.',
-      list: {
-        backend: 'Structural Work',
-        frontend: 'Finishing',
-        databases: 'Installations',
-        ops: 'Project Management'
-      }
+    company: {
+      title: 'Company Information',
+      description: 'Professional construction services in Poland:',
+      owner: 'Owner',
+      nip: 'NIP',
+      regon: 'REGON',
+      phone: 'Phone',
+      email: 'Email',
+      coverage: 'Service area: Warsaw and surrounding regions'
     }
   },
   contact: {
-    title: 'Contact'
+    title: 'Contact',
+    services: 'Construction Services',
+    construction: 'Renovation & Building'
   },
   hero: {
     description: 'Professional construction and renovation services with years of experience and guaranteed quality.',

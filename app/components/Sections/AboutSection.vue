@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from '#imports'
+import { config } from '~/config'
 import AboutCard from '../Cards/AboutCard.vue'
 import List from '../List/List.vue'
 import ListItem from '../List/ListItem.vue'
@@ -11,48 +12,44 @@ const { t } = useI18n()
 <template>
   <BaseSection id="about" :title="t('about.title')">
     <AboutCard :title="t('about.whatWeDo.title')" class="leading-relaxed">
-      <p class="text-muted-foreground">
+      <p class="text-muted-foreground mb-4">
         {{ t('about.whatWeDo.description') }}
       </p>
       <List>
-        <ListItem>{{ t('about.whatWeDo.customWebApplications') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.documentManagement') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.integrations') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.processOptimization') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.painting') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.drywall') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.tiling') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.flooring') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.electrical') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.plumbing') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.furniture') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.renovation') }}</ListItem>
       </List>
     </AboutCard>
     <AboutCard :title="t('about.values.title')" class="leading-relaxed">
-      <p class="text-muted-foreground">
+      <p class="text-muted-foreground mb-4">
         {{ t('about.values.description') }}
       </p>
       <List>
-        <ListItem>{{ t('about.values.cleanCode') }}</ListItem>
-        <ListItem>{{ t('about.values.architecture') }}</ListItem>
-        <ListItem>{{ t('about.values.userExperience') }}</ListItem>
-        <ListItem>{{ t('about.values.processUnderstanding') }}</ListItem>
+        <ListItem>{{ t('about.values.quality') }}</ListItem>
+        <ListItem>{{ t('about.values.experience') }}</ListItem>
+        <ListItem>{{ t('about.values.reliability') }}</ListItem>
+        <ListItem>{{ t('about.values.pricing') }}</ListItem>
+        <ListItem>{{ t('about.values.warranty') }}</ListItem>
+        <ListItem>{{ t('about.values.materials') }}</ListItem>
       </List>
     </AboutCard>
-    <AboutCard :title="t('about.technologies.title')" class="leading-relaxed">
-      <p class="text-muted-foreground">
-        {{ t('about.technologies.description') }}
+    <AboutCard :title="t('about.company.title')" class="leading-relaxed">
+      <p class="text-muted-foreground mb-4">
+        {{ t('about.company.description') }}
       </p>
       <List>
-        <ListItem>
-          <span class="font-semibold mr-1">{{ t('about.technologies.list.backend') }}:</span>
-          <span>PHP (Laravel), Python (Flask, FastAPI, Django), Node.js (Express)</span>
-        </ListItem>
-        <ListItem>
-          <span class="font-semibold mr-1">{{ t('about.technologies.list.frontend') }}:</span>
-          <span>Vue.js 3, React, JavaScript, TailwindCSS, Bootstrap</span>
-        </ListItem>
-        <ListItem>
-          <span class="font-semibold mr-1">{{ t('about.technologies.list.databases') }}:</span>
-          <span>SQL Server, PostgreSQL, MySQL</span>
-        </ListItem>
-        <ListItem>
-          <span class="font-semibold mr-1">{{ t('about.technologies.list.ops') }}:</span>
-          <span>Linux, Apache, Nginx, Kafka</span>
-        </ListItem>
+        <ListItem>{{ t('about.company.owner') }}: {{ config.company.owner }}</ListItem>
+        <ListItem>{{ t('about.company.nip') }}: {{ config.company.nip }}</ListItem>
+        <ListItem>{{ t('about.company.regon') }}: {{ config.company.regon }}</ListItem>
+        <ListItem>{{ t('about.company.phone') }}: {{ config.company.phone }}</ListItem>
+        <ListItem>{{ t('about.company.email') }}: {{ config.company.email }}</ListItem>
+        <ListItem>{{ t('about.company.coverage') }}</ListItem>
       </List>
     </AboutCard>
   </BaseSection>

@@ -1,12 +1,3 @@
-Domena: wiarbud.dev-made.it
-Trzeba dodac w /etc/caddy/Caddyfile (analogicznie do dev-made.it)
-
-
-Dane firmy:
-WIARBUD Pavlo Baida
-NIP 5243044879
-REGON 542207595
-
 Dostępne usługi: 
 - Мalowanie, Szpachlowanie mieszkań, domów, biur
 - Konstrukcje kartonowo-gipsowe

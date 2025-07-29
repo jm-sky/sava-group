@@ -23,15 +23,17 @@ export default defineNuxtConfig({
     componentDir: './app/components/ui',
   },
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'pl',
     locales: [
       {
         code: 'en',
+        language: 'en',
         name: 'English',
         file: 'en.ts',
       },
       {
         code: 'pl',
+        language: 'pl',
         name: 'Polski',
         file: 'pl.ts',
       }
@@ -41,6 +43,5 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root'
     },
-    vueI18n: './i18n/index.ts'
   }
 })

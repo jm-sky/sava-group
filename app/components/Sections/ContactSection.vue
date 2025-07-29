@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Briefcase, Building, Github, Linkedin, Mail, MapPin, Phone, ShieldCheck } from 'lucide-vue-next'
+import { Briefcase, Building, Mail, MapPin, Phone, ShieldCheck } from 'lucide-vue-next'
 import { useI18n } from '#imports'
 import { config } from '@/config'
 import CardComponent from '../Cards/ContactCard.vue'
@@ -60,22 +60,18 @@ const { t } = useI18n()
     </CardComponent>
 
     <CardComponent>
-      <HoverLink
-        href="https://www.linkedin.com/in/jan-madeyski-964913166"
-        target="_blank"
-        aria-label="LinkedIn"
-      >
-        <Linkedin class="size-6" />
-        <span>Jan Madeyski</span>
-      </HoverLink>
-      <HoverLink
-        href="https://github.com/dev-made-it"
-        target="_blank"
-        aria-label="GitHub"
-      >
-        <Github class="size-6" />
-        <span>dev-made-it</span>
-      </HoverLink>
+      <div class="flex gap-4 items-center px-4 py-3 rounded-full">
+        <Briefcase class="size-6" />
+        <div>
+          <span class="font-semibold">{{ t('contact.services') }}</span>
+        </div>
+      </div>
+      <div class="flex gap-4 items-center px-4 py-3 rounded-full">
+        <Building class="size-6" />
+        <div>
+          <span class="font-semibold">{{ t('contact.construction') }}</span>
+        </div>
+      </div>
     </CardComponent>
   </BaseSection>
 </template>
