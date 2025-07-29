@@ -6,31 +6,31 @@ export default {
   },
   // Component-specific translations
   about: {
-    title: 'About',
+    title: 'About WIARBUD',
     whatWeDo: {
-      title: 'What we do',
-      description: 'We create web solutions tailored to business needs:',
-      customWebApplications: 'Custom web applications and internal tools',
-      documentManagement: 'Document and project management systems',
-      integrations: 'Integrations with financial software, ERP, and JIRA',
-      processOptimization: 'Tools for business process optimization'
+      title: 'Our Services',
+      description: 'We provide comprehensive construction and renovation services:',
+      customWebApplications: 'Painting and spackling of apartments, houses, offices',
+      documentManagement: 'Drywall constructions and tile installation',
+      integrations: 'Vinyl panel installation and balcony renovations',
+      processOptimization: 'Electrical work, plumbing, and furniture assembly'
     },
     values: {
-      title: 'Values',
-      description: 'We value:',
-      cleanCode: 'Clean and maintainable code',
-      architecture: 'Purpose-driven architecture',
-      userExperience: 'Seamless user experience',
-      processUnderstanding: 'Understanding of processes'
+      title: 'Why Choose Us',
+      description: 'We guarantee:',
+      cleanCode: 'High-quality workmanship and materials',
+      architecture: 'Professional approach to every project',
+      userExperience: 'Timely completion within budget',
+      processUnderstanding: 'Full service from design to completion'
     },
     technologies: {
-      title: 'Technologies we work with',
-      description: 'We like to learn and use the latest technologies.',
+      title: 'Our Specializations',
+      description: 'We specialize in modern construction techniques and materials.',
       list: {
-        backend: 'Backend',
-        frontend: 'Frontend',
-        databases: 'Databases',
-        ops: 'Ops'
+        backend: 'Structural Work',
+        frontend: 'Finishing',
+        databases: 'Installations',
+        ops: 'Project Management'
       }
     }
   },
@@ -38,15 +38,15 @@ export default {
     title: 'Contact'
   },
   hero: {
-    description: 'Full-stack web development focused on practical solutions and business process optimization.',
+    description: 'Professional construction and renovation services with years of experience and guaranteed quality.',
     learnMore: 'Learn More',
-    contact: 'Contact'
+    contact: 'Get Quote'
   },
   footer: {
     email: 'E-mail',
     phone: 'Phone',
     address: 'Address',
-    description: 'Full-stack web development focused on practical solutions and business process optimization.',
+    description: 'Professional construction and renovation services with years of experience and guaranteed quality.',
     quickLinks: 'Quick Links',
     contact: 'Contact',
     copyright: 'All rights reserved.'

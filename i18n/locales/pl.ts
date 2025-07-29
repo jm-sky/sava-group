@@ -6,31 +6,31 @@ export default {
   },
   // Component-specific translations
   about: {
-    title: 'O nas',
+    title: 'O firmie WIARBUD',
     whatWeDo: {
-      title: 'Co robimy',
-      description: 'Tworzymy rozwiązania webowe dostosowane do potrzeb biznesowych:',
-      customWebApplications: 'Niestandardowe aplikacje webowe i narzędzia wewnętrzne',
-      documentManagement: 'Systemy zarządzania dokumentami i projektami',
-      integrations: 'Integracje z oprogramowaniem finansowym, ERP i JIRA',
-      processOptimization: 'Narzędzia do optymalizacji procesów biznesowych'
+      title: 'Nasze usługi',
+      description: 'Świadczymy kompleksowe usługi budowlane i remontowe:',
+      customWebApplications: 'Malowanie i szpachlowanie mieszkań, domów, biur',
+      documentManagement: 'Konstrukcje kartonowo-gipsowe i układanie płytek',
+      integrations: 'Układanie paneli winylowych i remonty balkonów',
+      processOptimization: 'Prace elektryczne, hydrauliczne i montaż mebli'
     },
     values: {
-      title: 'Wartości',
-      description: 'Cenimy:',
-      cleanCode: 'Czysty i łatwy w utrzymaniu kod',
-      architecture: 'Architekturę ukierunkowaną na cel',
-      userExperience: 'Bezproblemowe doświadczenie użytkownika',
-      processUnderstanding: 'Zrozumienie procesów'
+      title: 'Dlaczego my',
+      description: 'Gwarantujemy:',
+      cleanCode: 'Wysoką jakość wykonania i materiałów',
+      architecture: 'Profesjonalne podejście do każdego projektu',
+      userExperience: 'Terminową realizację w ramach budżetu',
+      processUnderstanding: 'Pełną obsługę od projektu do realizacji'
     },
     technologies: {
-      title: 'Technologie, z którymi pracujemy',
-      description: 'Lubimy uczyć się i używać najnowszych technologii.',
+      title: 'Nasze specjalizacje',
+      description: 'Specjalizujemy się w nowoczesnych technikach budowlanych i materiałach.',
       list: {
-        backend: 'Backend',
-        frontend: 'Frontend',
-        databases: 'Bazy danych',
-        ops: 'Operacje'
+        backend: 'Prace konstrukcyjne',
+        frontend: 'Wykończenia',
+        databases: 'Instalacje',
+        ops: 'Zarządzanie projektami'
       }
     }
   },
@@ -38,15 +38,15 @@ export default {
     title: 'Kontakt',
   },
   hero: {
-    description: 'Full-stack web development skupiony na praktycznych rozwiązaniach i optymalizacji procesów biznesowych.',
+    description: 'Profesjonalne usługi budowlane i remontowe z wieloletnim doświadczeniem i gwarancją jakości.',
     learnMore: 'Dowiedz się więcej',
-    contact: 'Kontakt'
+    contact: 'Wycena'
   },
   footer: {
     email: 'E-mail',
     phone: 'Telefon',
     address: 'Adres',
-    description: 'Full-stack web development skupiony na praktycznych rozwiązaniach i optymalizacji procesów biznesowych.',
+    description: 'Profesjonalne usługi budowlane i remontowe z wieloletnim doświadczeniem i gwarancją jakości.',
     quickLinks: 'Szybkie linki',
     contact: 'Kontakt',
     copyright: 'Wszelkie prawa zastrzeżone.'
