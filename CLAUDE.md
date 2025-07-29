@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with the WIARBUD website repository.
 
 # Dev Commands
 
@@ -52,8 +52,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Static generation**: Primary deployment method via `pnpm generate`
 - **Build script**: `scripts/build-deploy.sh` handles git pull, generate, and finalization
 - **Production**: Uses Nuxt's optimized build process
+- **Domain**: wiarbud.dev-made.it
+- **Caddy config**: `Caddyfile` contains server configuration for deployment
 
 # Key Configuration Files
 - `nuxt.config.ts`: Main Nuxt configuration with modules and i18n setup
 - `components.json`: shadcn-vue configuration with aliases and styling preferences
 - `tsconfig.json`: TypeScript references managed by Nuxt's generated configs
+- `app/config.ts`: Company data (WIARBUD Pavlo Baida, NIP: 5243044879, REGON: 542207595)
+
+# Company Information
+- **Company**: WIARBUD Pavlo Baida
+- **Services**: Construction and renovation services including painting, spackling, drywall constructions, tile installation, vinyl panel installation, electrical work, plumbing, furniture assembly
+- **Contact**: contact@wiarbud.dev-made.it, +48 668 292 049
+- **Languages**: Polish (primary), English

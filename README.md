@@ -1,8 +1,8 @@
-# DEV Made IT
+# WIARBUD
 
-Our home page.
+Professional construction and renovation services website.
 
-![obraz](https://github.com/user-attachments/assets/1bd198cb-2263-4ae2-ad45-546ae5b05dec)
+WIARBUD Pavlo Baida offers comprehensive construction and renovation services including painting, spackling, drywall constructions, tile installation, and much more.
 
 ## Recommended IDE Setup
 
