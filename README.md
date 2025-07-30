@@ -1,28 +1,21 @@
-# WIARBUD
+# SAVA GROUP
 
-Professional construction and renovation services website.
+Professional electrical services website.
 
-WIARBUD Pavlo Baida offers comprehensive construction and renovation services including painting, spackling, drywall constructions, tile installation, and much more.
+SAVA GROUP sp. z o.o. offers comprehensive electrical services including installation, maintenance, repairs, and electrical system solutions for residential and commercial properties.
 
 ## Dostępne usługi: 
 
-- Мalowanie, Szpachlowanie mieszkań, domów, biur
-- Konstrukcje kartonowo-gipsowe
-- Układanie płytek
-- Układanie paneli winylowych
-- Remonty balkonów i tarasów
-- Tapetowanie
-- Sufity podwieszane, armstrong
-- Składanie mebli i montaż
-- Wymiana zamków, klamek, uchwytów
-- Montaż suszarki sufitowej
-- Montaż rolet i karniszy
-- Wieszanie obrazów, luster, półek
-- Wymiana gniazdek włączników 
-- Wieszanie lamp
-- Montaż zlewów, umywalek
-- Wymiana baterii, syfonu
-- Silikonowanie, uszczelnianie
+- Instalacje elektryczne w budynkach mieszkalnych i komercyjnych
+- Modernizacja i rozbudowa instalacji elektrycznych
+- Montaż i naprawa oświetlenia
+- Instalacja gniazdek, włączników i rozdzielnic
+- Pomiary i diagnostyka instalacji elektrycznych
+- Serwis i konserwacja urządzeń elektrycznych
+- Instalacje alarmowe i domofony
+- Montaż systemów zabezpieczeń
+- Awaryjna naprawa instalacji elektrycznych
+- Doradztwo techniczne w zakresie elektryką
 
 
 ## Recommended IDE Setup

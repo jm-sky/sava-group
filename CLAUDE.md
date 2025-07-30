@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with the WIARBUD website repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with the SAVA GROUP website repository.
 
 # Dev Commands
 
@@ -55,15 +55,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 - **Static generation**: Primary deployment method via `pnpm generate`
 - **Build script**: `scripts/build-deploy.sh` handles git pull, generate, and finalization
 - **Production**: Uses Nuxt's optimized build process
-- **Domain**: wiarbud.dev-made.it
+- **Domain**: sava-group.dev-made.it
 - **Caddy config**: `Caddyfile` contains server configuration for deployment
 
 # Key Configuration Files
 - `nuxt.config.ts`: Main Nuxt configuration with modules and i18n setup
 - `components.json`: shadcn-vue configuration with aliases and styling preferences
 - `tsconfig.json`: TypeScript references managed by Nuxt's generated configs
-- `app/config.ts`: Company data (WIARBUD Pavlo Baida, NIP: 5243044879, REGON: 542207595)
+- `app/config.ts`: Company data (SAVA GROUP sp. z o.o., NIP: 5213870408, KRS: 0000793121)
 
 # Company Information
-- **Company**: WIARBUD Pavlo Baida
+- **Company**: SAVA GROUP sp. z o.o.
+- **NIP**: 5213870408
+- **KRS**: 0000793121  
+- **REGON**: 383783407
+- **Email**: sava.group.pl@gmail.com
+- **Phone**: +48 572 751 175
+- **Address**: Aleja Jana Pawła II 27, 00-867 Warszawa, Polska
+- **Services**: Electrical services, installation, maintenance
+- **Slogan**: "Nie ma nic niemożliwego. Zapraszam do kontaktu. Rozwiązanie każdego problemu."
  

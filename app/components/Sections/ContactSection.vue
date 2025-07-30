@@ -69,7 +69,7 @@ const { t } = useI18n()
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Building class="size-6" />
         <div>
-          <span class="font-semibold">{{ t('contact.construction') }}</span>
+          <span class="font-semibold">{{ t('contact.electrical') }}</span>
         </div>
       </div>
     </CardComponent>

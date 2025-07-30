@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from '#imports'
 import { Button } from '@/components/ui/button'
-import DevMadeItLogo from '../Logo/DevMadeItLogo.vue'
+import CompanyLogo from '../Logo/CompanyLogo.vue'
 
 const { t } = useI18n()
 </script>
@@ -11,7 +11,7 @@ const { t } = useI18n()
     class="w-full h-screen bg-gradient-to-b from-gray-50 to-white dark:from-black dark:to-gray-900 from-80% flex flex-col items-center justify-center relative overflow-hidden"
   >
     <div class="py-20">
-      <DevMadeItLogo class="mb-2" />
+      <CompanyLogo class="mb-2" />
       <p class="px-4 md:px-0 text-xl leading-relaxed md:text-2xl text-muted-foreground mb-8">
         {{ t('hero.description') }}
       </p>

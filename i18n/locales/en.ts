@@ -5,32 +5,33 @@ export default {
     contact: 'Contact'
   },
   about: {
-    title: 'About WIARBUD',
+    title: 'About SAVA GROUP',
     whatWeDo: {
       title: 'Our Services',
-      description: 'We provide comprehensive construction and renovation services:',
-      painting: 'Painting and spackling of apartments, houses, offices',
-      drywall: 'Drywall constructions and suspended ceilings',
-      tiling: 'Tile installation and bathroom renovations',
-      flooring: 'Vinyl panel installation and flooring',
-      electrical: 'Electrical work and lighting installation',
-      plumbing: 'Plumbing services and fixture installation',
-      furniture: 'Furniture assembly and mounting services',
-      renovation: 'Balcony and terrace renovations'
+      description: 'We provide comprehensive electrical services:',
+      installations: 'Electrical installations in residential and commercial buildings',
+      modernization: 'Modernization and expansion of electrical systems',
+      lighting: 'Installation and repair of lighting systems',
+      outlets: 'Installation of outlets, switches, and electrical panels',
+      diagnostics: 'Electrical measurements and system diagnostics',
+      maintenance: 'Service and maintenance of electrical equipment',
+      security: 'Alarm systems and intercom installations',
+      emergency: 'Emergency electrical repairs',
+      consulting: 'Technical consulting in electrical matters'
     },
     values: {
       title: 'Why Choose Us',
       description: 'What sets us apart:',
-      quality: 'High-quality workmanship and attention to detail',
-      experience: 'Years of experience in construction and renovation',
+      quality: 'High-quality electrical work and attention to detail',
+      experience: 'Years of experience in electrical installations',
       reliability: 'Reliable and timely project completion',
       pricing: 'Competitive pricing and transparent quotes',
-      warranty: 'Warranty on all completed work',
-      materials: 'Use of premium materials and modern techniques'
+      warranty: 'Warranty on all electrical work',
+      materials: 'Use of certified materials and modern electrical techniques'
     },
     company: {
       title: 'Company Information',
-      description: 'Professional construction services in Poland:',
+      description: 'Professional electrical services in Poland:',
       owner: 'Owner',
       nip: 'NIP',
       regon: 'REGON',
@@ -41,11 +42,11 @@ export default {
   },
   contact: {
     title: 'Contact',
-    services: 'Construction Services',
-    construction: 'Renovation & Building'
+    services: 'Electrical Services',
+    electrical: 'Installation & Maintenance'
   },
   hero: {
-    description: 'Professional construction and renovation services with years of experience and guaranteed quality.',
+    description: 'Professional electrical services with years of experience and guaranteed quality.',
     learnMore: 'Learn More',
     contact: 'Get Quote'
   },
@@ -56,7 +57,7 @@ export default {
     email: 'E-mail',
     phone: 'Phone',
     address: 'Address',
-    description: 'Professional construction and renovation services with years of experience and guaranteed quality.',
+    description: 'Professional electrical services with years of experience and guaranteed quality.',
     quickLinks: 'Quick Links',
     contact: 'Contact',
     copyright: 'All rights reserved.'

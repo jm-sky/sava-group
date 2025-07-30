@@ -16,14 +16,15 @@ const { t } = useI18n()
         {{ t('about.whatWeDo.description') }}
       </p>
       <List>
-        <ListItem>{{ t('about.whatWeDo.painting') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.drywall') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.tiling') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.flooring') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.electrical') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.plumbing') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.furniture') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.renovation') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.installations') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.modernization') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.lighting') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.outlets') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.diagnostics') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.maintenance') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.security') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.emergency') }}</ListItem>
+        <ListItem>{{ t('about.whatWeDo.consulting') }}</ListItem>
       </List>
     </AboutCard>
     <AboutCard :title="t('about.values.title')" class="leading-relaxed">
@@ -44,7 +45,6 @@ const { t } = useI18n()
         {{ t('about.company.description') }}
       </p>
       <List>
-        <ListItem>{{ t('about.company.owner') }}: {{ config.company.owner }}</ListItem>
         <ListItem>{{ t('about.company.nip') }}: {{ config.company.nip }}</ListItem>
         <ListItem>{{ t('about.company.regon') }}: {{ config.company.regon }}</ListItem>
         <ListItem>{{ t('about.company.phone') }}: {{ config.company.phone }}</ListItem>

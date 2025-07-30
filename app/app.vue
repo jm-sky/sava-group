@@ -8,9 +8,9 @@ import FooterSection from '@/components/Sections/FooterSection.vue'
 import ScrollToTop from '@/components/Sections/ScrollToTop.vue'
 
 useHead({
-  title: 'WIARBUD - Profesjonalne usługi budowlane i remontowe',
+  title: 'SAVA GROUP - Profesjonalne usługi elektryczne',
   meta: [
-    { name: 'description', content: 'WIARBUD - Profesjonalne usługi budowlane i remontowe. Malowanie, szpachlowanie, konstrukcje kartonowo-gipsowe, układanie płytek i wiele więcej.' },
+    { name: 'description', content: 'SAVA GROUP - Profesjonalne usługi elektryczne. Instalacje elektryczne, modernizacja, montaż oświetlenia, pomiary i diagnostyka.' },
   ],
 })
 
@@ -19,6 +19,10 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
   robots: 'index,follow',
 })
+
+const options = {
+  testimonials: false,
+}
 </script>
 
 <template>
@@ -26,7 +30,7 @@ useSeoMeta({
     <NavbarSection />
     <HeroSection />
     <AboutSection />
-    <TestimonialsSection />
+    <TestimonialsSection v-if="options.testimonials" />
     <ContactSection />
     <FooterSection />
     <ScrollToTop />

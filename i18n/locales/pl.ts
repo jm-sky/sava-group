@@ -5,32 +5,33 @@ export default {
     contact: 'Kontakt'
   },
   about: {
-    title: 'O firmie WIARBUD',
+    title: 'O firmie SAVA GROUP',
     whatWeDo: {
       title: 'Nasze usługi',
-      description: 'Świadczymy kompleksowe usługi budowlane i remontowe:',
-      painting: 'Malowanie i szpachlowanie mieszkań, domów, biur',
-      drywall: 'Konstrukcje kartonowo-gipsowe i sufity podwieszane',
-      tiling: 'Układanie płytek i remonty łazienek',
-      flooring: 'Układanie paneli winylowych i podłóg',
-      electrical: 'Prace elektryczne i montaż oświetlenia',
-      plumbing: 'Usługi hydrauliczne i montaż armatury',
-      furniture: 'Składanie mebli i usługi montażowe',
-      renovation: 'Remonty balkonów i tarasów'
+      description: 'Świadczymy kompleksowe usługi elektryczne:',
+      installations: 'Instalacje elektryczne w budynkach mieszkalnych i komercyjnych',
+      modernization: 'Modernizacja i rozbudowa instalacji elektrycznych',
+      lighting: 'Montaż i naprawa systemów oświetlenia',
+      outlets: 'Instalacja gniazdek, włączników i rozdzielnic',
+      diagnostics: 'Pomiary i diagnostyka instalacji elektrycznych',
+      maintenance: 'Serwis i konserwacja urządzeń elektrycznych',
+      security: 'Instalacje alarmowe i domofony',
+      emergency: 'Awaryjna naprawa instalacji elektrycznych',
+      consulting: 'Doradztwo techniczne w zakresie elektryką'
     },
     values: {
       title: 'Dlaczego my',
       description: 'Co nas wyróżnia:',
-      quality: 'Wysoka jakość wykonania i dbałość o szczegóły',
-      experience: 'Wieloletnie doświadczenie w budownictwie i remontach',
+      quality: 'Wysoka jakość prac elektrycznych i dbałość o szczegóły',
+      experience: 'Wieloletnie doświadczenie w instalacjach elektrycznych',
       reliability: 'Rzetelność i terminowość realizacji projektów',
       pricing: 'Konkurencyjne ceny i przejrzyste wyceny',
-      warranty: 'Gwarancja na wszystkie wykonane prace',
-      materials: 'Stosowanie wysokiej jakości materiałów i nowoczesnych technik'
+      warranty: 'Gwarancja na wszystkie prace elektryczne',
+      materials: 'Stosowanie certyfikowanych materiałów i nowoczesnych technik elektrycznych'
     },
     company: {
       title: 'Informacje o firmie',
-      description: 'Profesjonalne usługi budowlane w Polsce:',
+      description: 'Profesjonalne usługi elektryczne w Polsce:',
       owner: 'Właściciel',
       nip: 'NIP',
       regon: 'REGON',
@@ -41,11 +42,11 @@ export default {
   },
   contact: {
     title: 'Kontakt',
-    services: 'Usługi budowlane',
-    construction: 'Remonty i budownictwo'
+    services: 'Usługi elektryczne',
+    electrical: 'Instalacje i serwis'
   },
   hero: {
-    description: 'Profesjonalne usługi budowlane i remontowe z wieloletnim doświadczeniem i gwarancją jakości.',
+    description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',
     learnMore: 'Dowiedz się więcej',
     contact: 'Wycena'
   },
@@ -56,7 +57,7 @@ export default {
     email: 'E-mail',
     phone: 'Telefon',
     address: 'Adres',
-    description: 'Profesjonalne usługi budowlane i remontowe z wieloletnim doświadczeniem i gwarancją jakości.',
+    description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',
     quickLinks: 'Szybkie linki',
     contact: 'Kontakt',
     copyright: 'Wszelkie prawa zastrzeżone.'

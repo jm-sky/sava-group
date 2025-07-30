@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Build and deploy script for dev-made-it
+# Build and deploy script for sava-group
 set -e
 
 echo "Starting build and deploy process..."
@@ -12,6 +12,6 @@ echo "2. Generating static site with pnpm..."
 pnpm generate
 
 echo "3. Running finalization script..."
-sudo finalize-wiarbud.sh
+sudo finalize-sava-group.sh
 
 echo "Build and deploy completed successfully!"
