@@ -49,6 +49,9 @@ export default {
     learnMore: 'Learn More',
     contact: 'Get Quote'
   },
+  testimonials: {
+    title: 'Testimonials'
+  },
   footer: {
     email: 'E-mail',
     phone: 'Phone',

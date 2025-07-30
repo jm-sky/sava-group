@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import BaseSection from '@/components/Sections/BaseSection.vue';
+import TestimonialCard from '@/components/Cards/TestimonialCard.vue';
+
+const { t } = useI18n();
+
 const testimonials = [
   {
     author: "Jan Madeyski",
@@ -10,7 +15,7 @@ const testimonials = [
 </script>
 
 <template>
-  <BaseSection title="Opinie">
+  <BaseSection :title="t('testimonials.title')">
     <TestimonialCard
       v-for="testimonial in testimonials"
       :key="`${testimonial.author}-${testimonial.date}`"

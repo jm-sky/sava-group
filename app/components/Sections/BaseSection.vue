@@ -1,6 +1,9 @@
 <script setup lang="ts">
+import { cn } from '~/lib/utils';
+
 defineProps<{
   title: string
+  contentClass?: string
 }>()
 </script>
 
@@ -10,7 +13,7 @@ defineProps<{
       <h2 class="text-4xl font-bold text-center mb-12 border-b-4 border-primary pb-2 w-fit mx-auto">
         {{ title }}
       </h2>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div :class="cn('grid md:grid-cols-3 gap-8', contentClass)">
         <slot />
       </div>
     </div>

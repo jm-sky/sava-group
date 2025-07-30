@@ -49,6 +49,9 @@ export default {
     learnMore: 'Узнать больше',
     contact: 'Получить расчет'
   },
+  testimonials: {
+    title: 'Отзывы'
+  },
   footer: {
     email: 'E-mail',
     phone: 'Телефон',
