@@ -4,9 +4,15 @@ import { Button } from '@/components/ui/button'
 
 const { locale, setLocale } = useI18n()
 
+const locales = ['pl', 'en', 'ru'] as const
+
 const toggleLocale = () => {
-  const nextLocale = locale.value === 'pl' ? 'en' : 'pl'
-  setLocale(nextLocale)
+  const currentIndex = locales.indexOf(locale.value as typeof locales[number])
+  const nextIndex = (currentIndex + 1) % locales.length
+  const nextLocale = locales[nextIndex]
+  if (nextLocale) {
+    setLocale(nextLocale)
+  }
 }
 </script>
 
@@ -26,7 +32,8 @@ const toggleLocale = () => {
       leave-to-class="opacity-0 translate-y-5"
     >
       <span v-if="locale === 'pl'">PL</span>
-      <span v-else>EN</span>
+      <span v-else-if="locale === 'en'">EN</span>
+      <span v-else>RU</span>
     </Transition>
   </Button>
 </template>
