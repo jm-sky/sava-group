@@ -12,8 +12,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with th
 - `pnpm postinstall` - Prepare Nuxt (runs automatically after install)
 
 ## Linting and Type Checking
+- `npx eslint <files>` - Run ESLint on specific files
+- `npx tsc --noEmit` - Run TypeScript type checking
 - ESLint configuration uses Nuxt's built-in ESLint config (`.nuxt/eslint.config.mjs`)
 - TypeScript references are managed by Nuxt's generated tsconfig files
+- Always run linter and type check after feature completion or even after each few components/functions.
 
 ## Dependencies
 - Project uses **pnpm** as package manager
