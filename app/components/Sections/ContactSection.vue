@@ -2,8 +2,9 @@
 import { Briefcase, Building, Mail, MapPin, Phone, Rocket, ShieldCheck } from 'lucide-vue-next'
 import { useI18n } from '#imports'
 import { config } from '@/config'
-import CardComponent from '../Cards/ContactCard.vue'
+import { useAnimationConfig } from '@/composables/useAnimationConfig'
 import BaseSection from './BaseSection.vue'
+import CardComponent from '../Cards/ContactCard.vue'
 import { HoverLink } from '../ui/hoverLink'
 
 const { t } = useI18n()
