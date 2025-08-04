@@ -27,7 +27,7 @@ export default {
       reliability: 'Rzetelność i terminowość realizacji projektów',
       pricing: 'Konkurencyjne ceny i przejrzyste wyceny',
       warranty: 'Gwarancja na wszystkie prace elektryczne',
-      materials: 'Stosowanie certyfikowanych materiałów i nowoczesnych technik elektrycznych'
+      materials: 'Stosowanie certyfikowanych materiałów i nowoczesnych technik elektrycznych',
     },
     company: {
       title: 'Informacje o firmie',
@@ -37,22 +37,22 @@ export default {
       regon: 'REGON',
       phone: 'Telefon',
       email: 'Email',
-      coverage: 'Obszar działania: Warszawa i okolice'
+      coverage: 'Obszar działania: Warszawa i okolice',
     }
   },
   contact: {
     title: 'Kontakt',
     services: 'Usługi elektryczne',
     electrical: 'Instalacje i serwis',
-    special: 'Zadania specjalne'
+    special: 'Zadania specjalne',
   },
   hero: {
     description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',
     learnMore: 'Dowiedz się więcej',
-    contact: 'Wycena'
+    contact: 'Wycena',
   },
   testimonials: {
-    title: 'Opinie'
+    title: 'Opinie',
   },
   footer: {
     email: 'E-mail',
@@ -61,6 +61,6 @@ export default {
     description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',
     quickLinks: 'Szybkie linki',
     contact: 'Kontakt',
-    copyright: 'Wszelkie prawa zastrzeżone.'
+    copyright: 'Wszelkie prawa zastrzeżone.',
   }
 }

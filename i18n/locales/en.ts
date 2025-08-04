@@ -37,22 +37,22 @@ export default {
       regon: 'REGON',
       phone: 'Phone',
       email: 'Email',
-      coverage: 'Service area: Warsaw and surrounding regions'
+      coverage: 'Service area: Warsaw and surrounding regions',
     }
   },
   contact: {
     title: 'Contact',
     services: 'Electrical Services',
     electrical: 'Installation & Maintenance',
-    special: 'Special Tasks'
+    special: 'Special Tasks',
   },
   hero: {
     description: 'Professional electrical services with years of experience and guaranteed quality.',
     learnMore: 'Learn More',
-    contact: 'Get Quote'
+    contact: 'Get Quote',
   },
   testimonials: {
-    title: 'Testimonials'
+    title: 'Testimonials',
   },
   footer: {
     email: 'E-mail',

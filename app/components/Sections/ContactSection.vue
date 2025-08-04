@@ -89,7 +89,7 @@ const { slideUp, delayed } = useAnimationConfig()
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Rocket class="size-6" />
         <div>
-          <span class="font-semibold">{{ t('contact.special') }}</span>
+          <span class="font-semibold">{{ t('contact.special', 'Zadania specjalne') }}</span>
         </div>
       </div>
     </CardComponent>
