@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'shadcn-nuxt',
     '@nuxtjs/i18n',
+    '@vueuse/motion/nuxt',
     '@vite-pwa/nuxt'
   ],
   css: ['~/assets/css/index.css'],
@@ -31,6 +32,20 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+  },
+  // Global animation configuration
+  runtimeConfig: {
+    public: {
+      motion: {
+        // Global animation defaults
+        transition: {
+          duration: 400,
+          ease: 'easeOut'
+        },
+        // Respect user preferences
+        respectMotionPreferences: true
+      }
+    }
   },
   shadcn: {
     prefix: '',

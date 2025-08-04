@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Briefcase, Building, Mail, MapPin, Phone, ShieldCheck } from 'lucide-vue-next'
+import { Briefcase, Building, Mail, MapPin, Phone, Rocket, ShieldCheck } from 'lucide-vue-next'
 import { useI18n } from '#imports'
 import { config } from '@/config'
 import CardComponent from '../Cards/ContactCard.vue'
@@ -7,11 +7,16 @@ import BaseSection from './BaseSection.vue'
 import { HoverLink } from '../ui/hoverLink'
 
 const { t } = useI18n()
+const { slideUp, delayed } = useAnimationConfig()
 </script>
 
 <template>
   <BaseSection id="contact" :title="t('contact.title')">
-    <CardComponent>
+    <CardComponent
+      v-motion
+      :initial="slideUp.initial"
+      :visible-once="delayed(slideUp.visibleOnce, 100)"
+    >
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Briefcase class="size-6" />
         <div class="font-semibold">
@@ -34,14 +39,17 @@ const { t } = useI18n()
       </div>
     </CardComponent>
 
-    <CardComponent>
+    <CardComponent
+      v-motion
+      :initial="slideUp.initial"
+      :visible-once="delayed(slideUp.visibleOnce, 200)"
+    >
       <HoverLink
-        href="https://maps.app.goo.gl/whXy58Df4TimY8dz7"
-        target="_blank"
-        aria-label="Address"
+        :href="`tel:${config.company.phone.replaceAll(' ', '')}`"
+        aria-label="Phone"
       >
-        <MapPin class="size-6" />
-        <span>{{ config.company.address }}</span>
+        <Phone class="size-6" />
+        <span>{{ config.company.phone }}</span>
       </HoverLink>
       <HoverLink
         :href="`mailto:${config.company.email}`"
@@ -51,15 +59,20 @@ const { t } = useI18n()
         <span>{{ config.company.email }}</span>
       </HoverLink>
       <HoverLink
-        :href="`tel:${config.company.phone.replaceAll(' ', '')}`"
-        aria-label="Phone"
+        href="https://maps.app.goo.gl/whXy58Df4TimY8dz7"
+        target="_blank"
+        aria-label="Address"
       >
-        <Phone class="size-6" />
-        <span>{{ config.company.phone }}</span>
+        <MapPin class="size-6" />
+        <span>{{ config.company.address }}</span>
       </HoverLink>
     </CardComponent>
 
-    <CardComponent>
+    <CardComponent
+      v-motion
+      :initial="slideUp.initial"
+      :visible-once="delayed(slideUp.visibleOnce, 300)"
+    >
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Briefcase class="size-6" />
         <div>
@@ -70,6 +83,12 @@ const { t } = useI18n()
         <Building class="size-6" />
         <div>
           <span class="font-semibold">{{ t('contact.electrical') }}</span>
+        </div>
+      </div>
+      <div class="flex gap-4 items-center px-4 py-3 rounded-full">
+        <Rocket class="size-6" />
+        <div>
+          <span class="font-semibold">{{ t('contact.specialTasks') }}</span>
         </div>
       </div>
     </CardComponent>

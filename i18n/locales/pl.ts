@@ -43,7 +43,8 @@ export default {
   contact: {
     title: 'Kontakt',
     services: 'Usługi elektryczne',
-    electrical: 'Instalacje i serwis'
+    electrical: 'Instalacje i serwis',
+    specialTasks: 'Zadania specjalne'
   },
   hero: {
     description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',
