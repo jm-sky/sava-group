@@ -44,7 +44,7 @@ export default {
     title: 'Kontakt',
     services: 'Usługi elektryczne',
     electrical: 'Instalacje i serwis',
-    specialTasks: 'Zadania specjalne'
+    special: 'Zadania specjalne'
   },
   hero: {
     description: 'Profesjonalne usługi elektryczne z wieloletnim doświadczeniem i gwarancją jakości.',

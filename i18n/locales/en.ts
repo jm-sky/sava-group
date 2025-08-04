@@ -44,7 +44,7 @@ export default {
     title: 'Contact',
     services: 'Electrical Services',
     electrical: 'Installation & Maintenance',
-    specialTasks: 'Special Tasks'
+    special: 'Special Tasks'
   },
   hero: {
     description: 'Professional electrical services with years of experience and guaranteed quality.',
